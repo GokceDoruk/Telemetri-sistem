@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>EV Telemetri Sistemi</title>
-</head>
-<body>
-    <h1>Elektrikli Araçlar için Telemetri Destekli Güvenlik ve Verimlilik Sistemi</h1>
-    <p>Artan enerji ihtiyacı ve fosil yakıtlarının kullanımının artması sürdürülebilir yaşamı, geleceği tehlikeye atmaktadır. Gelişen teknoloji ile birlikte mühendislik alanları sürdürebilir bir gelecek adına önemli çalışmalar katetmiştir. Elektrikli araçların geliştirilmesi bu çalışmalara örnek niteliğindedir. Elektrikli araçlar, enerji ihtiyacını Lityum iyon pillerinden oluşan bataryalarda depolanan elektrik enerjisi ile karşılayan ve elektrik motoru yardımı ile elektrik enerjisini mekanik enerjiye dönüştürerek hareketini sağlayan ulaşım araçlarıdır. Ancak elektrikli araçların avantajlarının yanı sıra pek çok dezavantajlarını da göz önünde bulundurmak gerekir. Özellikle lityum iyon pillerinden oluşan bataryanın; şarj süresi, aşırı ısınma riski ve lityum iyon pillerinin sağlığı araç güvenliğini ve verimliliğini etkileyen önemli hususlardır. Ayrıca hücre gerilimleri, anlık batarya sıcaklığı, batarya sağlığı, saatte harcanan enerji gibi verilerin anlık olarak takip edilememesi olası arızaların önüne geçilmesini zorlaştırmaktadır. Bu durumların önüne geçilmesi adına telemetri sistemleri büyük önem taşımaktadır.</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Telemetri Sistemi</title>
 
-    <h2>Özellikler</h2>
-    <ul>
-        <li>LoRa ile haberleşme</li>
-        <li>STM32 tabanlı sistem</li>
-        <li>Sinyal kesilince SD karta kayıt</li>
-    </ul>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e3a8a, #06b6d4);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Elektrikli Araçlar için Telemetri Sistemi</h1>
+    <p>Gerçek zamanlı veri izleme, güvenlik ve verimlilik çözümü</p>
+</header>
+
+<section>
+    <h2>🚨 Problem</h2>
+    <div class="card">
+        Elektrikli araçlarda batarya arızaları, veri kaybı ve uzaktan izleme eksikliği ciddi güvenlik riskleri oluşturur.
+    </div>
+
+    <h2>💡 Çözüm</h2>
+    <div class="card">
+        Geliştirdiğimiz sistem, araçtan alınan kritik verileri gerçek zamanlı olarak iletir ve bağlantı kesildiğinde SD karta kaydeder.
+    </div>
+
+    <h2>⚙️ Nasıl Çalışır?</h2>
+    <div class="card">
+        Araç → Telemetri Kartı → LoRa → Kontrol Merkezi → Veri Analizi
+    </div>
+
+    <h2>📊 Özellikler</h2>
+    <div class="card">
+        ✔ LoRa ile uzun menzil iletişim<br>
+        ✔ STM32 tabanlı sistem<br>
+        ✔ Sinyal kesilince veri kaydı<br>
+        ✔ Düşük güç tüketimi<br>
+        ✔ Gerçek zamanlı analiz
+    </div>
+
+    <h2>🎯 Hedef Kitle</h2>
+    <div class="card">
+        Elektrikli araç üreticileri, yarışma takımları ve filo yönetim sistemleri
+    </div>
+
+    <h2>💰 İş Modeli</h2>
+    <div class="card">
+        Donanım satışı + Yazılım abonelik sistemi
+    </div>
+
+    <h2>👨‍💻 Takım</h2>
+    <div class="card">
+        Gömülü sistem geliştirici, haberleşme mühendisi ve yazılım geliştirici
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 EV Telemetri Sistemi</p>
+</footer>
+
 </body>
 </html>
